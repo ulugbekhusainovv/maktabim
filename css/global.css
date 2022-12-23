@@ -64,7 +64,7 @@ body {
   padding-right: 10rem;
 }
 .btn {
-  padding: .8rem 1.6rem;
+  padding: 0.8rem 1.6rem;
   background-repeat: 8px;
   color: #ffffff;
   font-weight: 700;
@@ -89,8 +89,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: .8rem;
-  padding-bottom: .8rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
 }
 .logo-link {
   display: block;
@@ -98,13 +98,18 @@ body {
 }
 .logo-link:hover .logo-text {
   opacity: 0.8;
-  color: #00BAFC;
-  ;
+  color: #00bafc;
 }
 .logo-link:active {
   opacity: 0.6;
 }
-
+.logo-text {
+  font-size: 25px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: gold;
+  user-select: none;
+}
 .sitenav-list {
   display: flex;
   justify-content: space-between;
@@ -124,7 +129,7 @@ body {
 .sitenav-link:hover {
   border-bottom: 3px solid #191919;
   border-width: 0.3rem;
-  color: #00BAFC;
+  color: #00bafc;
   opacity: 0.6;
 }
 .sitenav-link:active {
@@ -164,7 +169,6 @@ body {
   gap: 1.6rem;
 }
 
-
 .form-div {
   text-align: center;
   display: flex;
@@ -203,7 +207,7 @@ button {
   font-size: 16px;
   background-color: #2d3748;
   color: #fff;
-} 
+}
 .input-btn {
   background-color: #00bafc;
   padding: 8px 10px;
@@ -213,7 +217,6 @@ button {
   text-align: center;
   background-color: #00bafc;
   border-radius: 5px;
-
 }
 
 .input-btn:hover {
@@ -238,7 +241,6 @@ button {
   outline: none;
   border: none;
 }
-
 
 /* FOOTER */
 .footer {
